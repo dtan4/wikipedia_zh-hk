@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+
+    "name": "Wikipedia in zh-hk",
+    "description": "Force to open Chinese Wikipedia in zh-hk",
+    "version": "1.0",
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "permissions": [
+        "https://zh.wikipedia.org/",
+        "tabs"
+    ]
+}
